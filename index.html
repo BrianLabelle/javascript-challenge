@@ -1,79 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>UFO Finder</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta name="author" content="ChitrakootWeb" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="HTML5 Template Onepage JavaScript Homework - JavaScript and DOM Manipulation" />
+    <meta name="description" content="JavaScript Homework - JavaScript and DOM Manipulation" />
+
+    <!-- Title  -->
+    <title>JavaScript Homework - JavaScript and DOM Manipulation</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
 </head>
 
 <body>
-  <div class="wrapper">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">UFO Sightings
-            <img class="nav-ufo" src="static/images/ufo.svg">
-          </a>
+
+    <!-- Start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
         </div>
-      </div>
-    </nav>
-    <div class="hero text-center">
-      <h1>UFO Sightings</h1>
-      <p>The Truth is Out There</p>
     </div>
-    <div class="container">
-      <div class="row margin-top-50">
-        <div class="col-md-2">
-          <aside class="filters">
-            <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
-              <div class="panel-body">
-                <form>
-                  <div class="form-group">
-                    <ul class="list-group" id="filters">
-                      <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
-                      </li>
+    <!-- End page loading -->
+
+    <!-- Start Header -->
+    <header class="header height-100-vh valign" data-scroll-index="0" data-overlay-dark="6">
+
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg border-none nav-transparent">
+            <div class="container padding-15px-lr md-padding-15px-lr sm-padding-15px-all">
+
+                
+                    <img class="nav-ufo" src="images/ufo.svg">
+                    <a class="navbar-brand" href="index.html"> </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- navbar links -->
+<div class="collapse navbar-collapse" id="navbarContent">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item"><a class="nav-link active" href="index.html" data-scroll-nav="0">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="UFO-level-1/index.html" target="_blank">UFO-level-1</a></li>
+<li class="nav-item"><a class="nav-link" href="UFO-level-2/index.html" target="_blank">UFO-level-2</a></li>
+<li class="nav-item"><a class="nav-link" href="https://github.com/BrianLabelle/javascript-challenge" target="_blank">GitHub</a></li>
+
                     </ul>
-                  </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                </form>
-              </div>
+                </div>
+                <!-- end navbar links -->
             </div>
-          </aside>
+        </nav>
+        <!-- End Navbar  -->
+
+        <!-- Start Video -->
+        <video class="bg-vid" poster="img/down-time.jpg" autoplay="" loop="" muted="">
+            <source src="video/ufo.mp4" type="video/mp4">
+        </video>
+        <!-- End Video  -->
+
+        <!-- Start Banner Container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center caption">
+                    <h1 class="banner-headline clip no-margin">
+                        <span class="blc">JavaScript and DOM Manipulation</span>
+                    </h1>
+                    <p class="margin-10px-bottom sm-margin-20px-bottom xs-display-none">JavaScript Homework </p>
+
+
+                    <div class="social-links xs-margin-20px-top">
+<a href="#" target="_blank"><i class="fab fa-facebook-f text-light-gray"></i></a>
+<a href="#" target="_blank"><i class="fab fa-twitter text-light-gray"></i></a>
+<a href="#" target="_blank"><i class="fab fa-google-plus-g text-light-gray"></i></a>
+<a href="#" target="_blank"><i class="fab fa-dribbble text-light-gray"></i></a>
+<a href="#" target="_blank"><i class="fab fa-youtube text-light-gray"></i></a>
+<a href="#" target="_blank"><i class="fab fa-linkedin-in text-light-gray"></i></a>
+						<br><br><br>						<p class="margin-10px-bottom sm-margin-20px-bottom xs-display-none"><a href="#" target="_blank"><font color="#FFFFFF" >Visit the JavaScript and DOM Manipulation GitHub Repository</font></a></p>
+						<br><br><p class="margin-10px-bottom sm-margin-20px-bottom xs-display-none">&copy; 2019 JavaScript and DOM Manipulation is Powered by Azúcar Líquido | Brian Labelle</p>
+                    </div>
+					
+	
+                </div>				
+            </div>
         </div>
-        <div class="col-md-10">
-          <div id="table-area" class="">
-            <table id="ufo-table" class="table table-striped">
-              <thead>
-                <tr>
-                  <th class="table-head">Date</th>
-                  <th class="table-head">City</th>
-                  <th class="table-head">State</th>
-                  <th class="table-head">Country</th>
-                  <th class="table-head">Shape</th>
-                  <th class="table-head">Duration</th>
-                  <th class="table-head">Comments</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer class="footer">
-      <span class="bottom">UFO Sightings</span>
-    </footer>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <script src="static/js/data.js"></script>
-  <script src="static/js/app.js"></script>
+        <!-- End Banner Container -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+
+    
 </body>
 
 </html>
